@@ -1,0 +1,149 @@
+*{
+    font-size: 2rem;
+}
+a{
+    margin-right: 30px;
+}
+*{
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+ }
+    
+.div10 { grid-area: 2 / 5 / 4 / 7; }
+.div11 { grid-area: 2 / 7 / 3 / 8; }
+.div12 { grid-area: 3 / 1 / 5 / 3; }
+.div13 { grid-area: 3 / 4 / 4 / 5; }
+.div14 { grid-area: 3 / 7 / 6 / 9; }
+.div15 { grid-area: 4 / 3 / 6 / 5; }
+.div16 { grid-area: 4 / 5 / 6 / 6; }
+.div17 { grid-area: 4 / 6 / 5 / 7; }
+.div18 { grid-area: 5 / 1 / 6 / 2; }
+.div19 { grid-area: 5 / 2 / 6 / 3; }
+.div20 { grid-area: 5 / 6 / 6 / 7; }
+.div1{
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(download\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3; 
+    background-image: url(download\ \(2\).jpg);
+    background-size: cover;
+}
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url(download\ \(3\).jpg);
+    background-size: cover;
+    position: center;
+}
+.div4 {
+    grid-area: 1 / 4 / 3 / 5; 
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div5 {
+    grid-area: 1 / 5 / 2 / 6; 
+    background-image: url(flores-vermelhas-presente-decoraracao-paisagismo-1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.div6 {
+    grid-area: 1 / 6 / 2 / 8; 
+    background-image: url(images\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div7 {
+    grid-area: 1 / 8 / 3 / 9;
+    background-image: url(images\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div8 {
+    grid-area: 2 / 1 / 3 / 3;
+    background-image: url(images\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div9 {grid-area: 2 / 3 / 4 / 4; 
+    background-image: url(images\ \(4\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div10 {
+    background-image: url(images\ \(5\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div11 {
+    background-image: url(images\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div12 {
+    background-image: url(images\ \(7\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div13 {
+    background-image: url(images\ \(8\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div14 {
+    background-image: url(images\ \(9\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div15 {
+    background-image: url(images\ \(10\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div16 {
+    background-image: url(images\ \(11\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div17 {
+    background-image: url(images\ \(12\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div18 {
+    background-image: url(images\ \(13\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div19 {
+    background-image: url(images\ \(14\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div20{
+    background-image: url(images\ \(15\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.parent > div:hover{
+        transform: scale(1.2);
+        transition: 0.6s;
+        filter:saturate(0%);
+        z-index: 1;
+    }
